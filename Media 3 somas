@@ -1,0 +1,17 @@
+Var
+// Seção de Declarações das variáveis 
+num1: real
+num2: real
+media: real
+//REPAREM: Neste caso, a idade precisará ser do tipo INTEIRO para conseguirmos
+//realizar contas.
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   ESCREVAL("Digite o 1º núnero: ")
+   LEIA(num1)
+   ESCREVAL("Digite o 2º número: ")
+   LEIA(num2)
+   media <- (num1 + num2) /2
+   ESCREVAL("A média dos números é: ", media)
+Fimalgoritmo
