@@ -1,0 +1,16 @@
+Var
+// Seção de Declarações das variáveis 
+nome: caractere
+sobrenome: caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   ESCREVAL("Digite seu nome: ")
+   LEIA(nome)
+   ESCREVAL("Digite seu sobrenome: ")
+   LEIA(sobrenome)
+   ESCREVAL("----------------------------------")
+   ESCREVAL("O nome digitado foi " + nome + " e o sobrenome digitado foi: " + sobrenome)
+   ESCREVAL("Portanto, resultado = " + nome + " " + sobrenome)
+
+Fimalgoritmo
