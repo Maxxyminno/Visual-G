@@ -1,0 +1,27 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nicolas Maximino
+// Data atual  : 20/03/2024
+Var
+// Seção de Declarações das variáveis
+continuar: caractere
+x: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+ continuar <- "S"
+ x <- 1
+  enquanto (continuar = "S") faca
+   escreval("Número = " , x )
+   x <- x + 1
+   escreval("Deseja digitar mais um número ? [S/n]")
+   leia (continuar)
+   
+   fimenquanto
+
+
+
+Fimalgoritmo
