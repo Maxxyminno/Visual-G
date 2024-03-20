@@ -23,20 +23,20 @@ Inicio
    escreval("Digite o número:")
     leia (numero)
    
-     resultado <- (numero\16)
+     resultado <- (numero \ 16)
      resto <- numero % 16
 
    escreval("1 - ",resto, " QUOCIENTE = ",resultado)
       P3 <- resto
       
       se (resultado >= 16) entao
-      resto <- resultado%16
+      resto <- resultado % 16
       P2 <- resto
       
    escreval ("2 - ",resto, " QUOCIENTE = ",resultado)
       se (resultado >= 16) entao
-      resultado <- resultado\16
-      resto <- resultado%16
+      resultado <- resultado \ 16
+      resto <- resultado % 16
       
    escreval ("3 - ",resto, " QUOCIENTE = ",resultado)
       P1 <- RESTO
