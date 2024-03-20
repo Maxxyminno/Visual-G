@@ -1,0 +1,31 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nicolas Maximino
+// Data atual  : 20/03/2024
+Var
+// Seção de Declarações das variáveis 
+numero_final: inteiro
+x: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ escreva("Informe qual será o número limite/limite do seu laço de repetição")
+ escreval("")
+ leia(numero_final)
+ 
+ para x de 1 ate 50 faca
+  escreva("Número ", x)
+  
+    se(x % 5 = 0) entao
+  escreval(" - SENAI")
+  senao
+  escreval("")
+  
+
+  fimse
+  fimpara
+
+
+Fimalgoritmo
