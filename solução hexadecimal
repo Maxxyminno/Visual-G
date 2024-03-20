@@ -1,0 +1,124 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 20/03/2024
+Var
+// Seção de Declarações das variáveis 
+numero: inteiro
+resultado: inteiro
+resto:inteiro
+P1: real
+P2: real
+P3: real
+
+
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+// "\" Pega o resultado da divisão por inteiro.
+
+   escreval("Digite o número:")
+    leia (numero)
+   
+     resultado <- (numero\16)
+     resto <- numero % 16
+
+   escreval("1 - ",resto, " QUOCIENTE = ",resultado)
+      P3 <- resto
+      
+      se (resultado >= 16) entao
+      resto <- resultado%16
+      P2 <- resto
+      
+   escreval ("2 - ",resto, " QUOCIENTE = ",resultado)
+      se (resultado >= 16) entao
+      resultado <- resultado\16
+      resto <- resultado%16
+      
+   escreval ("3 - ",resto, " QUOCIENTE = ",resultado)
+      P1 <- RESTO
+      senao
+   escreval ("3X - ",resultado)
+      P1 <- RESULTADO
+        fimse
+      senao
+      P2 <- RESULTADO
+
+      fimse
+
+      escreval ("3 - ",resto, " QUOCIENTE = ",resultado)
+      P1 <- RESTO
+      
+// conversão do resultado final
+
+  se(P1 < 10) entao
+    escreva(P1)
+      senao
+  se(P1 = 10) entao
+    escreva("A")
+    FIMSE
+  se(P1 = 11) entao
+    escreva("B")
+    FIMSE
+  se(P1 = 12) entao
+    escreva("C")
+    FIMSE
+  se(P1 = 13) entao
+    escreva("D")
+    FIMSE
+  se(P1 = 14) entao
+    escreva("E")
+    FIMSE
+  se(P1 = 15) entao
+    escreva("F")
+     FIMSE
+      FIMSE
+
+  se(P2 < 10) entao
+    escreva(P2)
+  senao
+  se(P2 = 10) entao
+    escreva("A")
+    FIMSE
+   se(P2 = 11) entao
+    escreva("B")
+    FIMSE
+   se(P2 = 12) entao
+    escreva("C")
+    FIMSE
+   se(P2 = 13) entao
+     escreva("D")
+   FIMSE
+   se(P2 = 14) entao
+     escreva("E")
+   FIMSE
+   se(P2 = 15) entao
+     escreva("F")
+    FIMSE
+     FIMSE
+
+   se(P3 < 10) entao
+     escreva(P3)
+       senao
+   se(P3 = 10) entao
+     escreva("A")
+      FIMSE
+   se(P3 = 11) entao
+     escreva("B")
+      FIMSE
+   se(P3 = 12) entao
+     escreva("C")
+      FIMSE
+   se(P3 = 13) entao
+     escreva("D")
+      FIMSE
+   se(P3 = 14) entao
+     escreva("E")
+      FIMSE
+   se(P3 = 15) entao
+     escreva("F")
+      FIMSE
+       FIMSE
