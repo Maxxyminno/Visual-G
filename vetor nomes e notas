@@ -1,0 +1,51 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nicolas Maximino
+// Data atual  : 01/04/2024
+Var
+// Seção de Declarações das variáveis 
+nomes: vetor[1..5] de caractere
+notas: vetor [1..5,1..3] de real
+quantidade: inteiro
+x, y: inteiro
+resposta: inteiro
+soma, media: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+PARA x de 1 ate quantidade faca
+
+limpatela
+ 
+ escreval("SISTEMA DE NOTAS")
+limpatela
+ escreval("Qual o nome do [", x, " ] ° aluno?")
+leia(nomes[x])
+
+  PARA y de 1 ate 3 faca
+   escreval("")
+   escreval("ALUNO: ", x)
+   escreval("NOTA: ", y, "")
+   escreval("Qual é a nota ?')
+   leia(notas[x,y]
+  FIMPARA
+FIMPARA
+limpatela
+
+ escreval("")
+ escreval("RESULTADOS:-----------------")
+ escreval("Nome do aluno: " + nomes[resposta])
+ 
+  PARA y de 1 aate 3 faca
+   soma <- soma + notas[respostas,y])
+  FIMPARA
+  
+  media <- soma / 3
+  escreval("")
+  escreval("Média = [",media,"])
+
+
+Fimalgoritmo
