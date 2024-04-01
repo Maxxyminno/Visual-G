@@ -1,0 +1,26 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/04/2024
+Var
+// Seção de Declarações das variáveis 
+x: inteiro
+y: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ para x de 1 ate 5 faca
+  escreva(x)
+  
+   para x de 1 ate 3 faca
+    escreval (x, " - ", y)
+   FIMPARA
+  FIMPARA
+
+
+
+
+Fimalgoritmo
