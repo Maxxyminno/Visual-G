@@ -1,0 +1,76 @@
+Algoritmo "semnome"
+
+Var
+selecao: vetor[1..5]de caractere
+gols:vetor[1..5, 1..2] de inteiro
+//golssofridos:vetor[1..5] de inteiro
+pontos:vetor[1..5] de inteiro
+saldo:inteiro
+x: inteiro
+resposta:inteiro
+
+
+Inicio
+
+//SELEÇÕES
+selecao[1] <- "BRASIL"
+selecao[2] <- "ARGENTINA"
+selecao[3] <- "ARGENTINA"
+selecao[4] <- "INGLATERRA"
+selecao[5] <- "JAPÃO"
+
+//PONTOS
+pontos[1] <- 9
+pontos[2] <- 9
+pontos[3] <- 7
+pontos[4] <- 5
+pontos[5] <- 0
+
+//gols feitos
+gols[1,1] <- 10
+gols[2,1] <- 15
+gols[3,1] <- 7
+gols[4,1] <- 8
+gols[5,1] <- 5
+
+//golssofridos
+gols[1,2] <- 2
+gols[2,2] <- 8
+gols[3,2] <- 1
+gols[4,2] <- 10
+gols[5,2] <- 11
+
+
+escreval("---------------------------------------------------|")
+escreval("                                                   |")
+escreval("                     TABELA                        |")
+escreval("                                                   |")
+escreval("---------------------------------------------------|")
+escreva("")
+
+
+ para x de 1 ate 5 faca
+ 
+ escreval(x, ") seleção:", selecao[x])
+ 
+ fimpara
+ 
+ escreval("digite um numero para saber as informações da seleção")
+ leia(resposta)
+ 
+ se( resposta > 5 ) entao
+ escreval("seleção não encontada forleco, digite novamente")
+ escreval("")
+ leia(resposta)
+ fimse
+ 
+ limpatela
+ 
+ escreval("seleção:  " , selecao[resposta])
+ escreval("pontos:  " , pontos[resposta])
+ escreval("gols feitos:  ",gols[resposta,1])
+ escreval("gols sofridos:  ",gols[resposta,2])
+ saldo <- gols[resposta,1] -  gols[resposta,2])
+ escreval("saldo de gols:   ", saldo)
+
+Fimalgoritmo
